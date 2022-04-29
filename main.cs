@@ -5,17 +5,33 @@ class Program
     public static void Main(string[] args)
     {
         // This function accepts user input
-        int radius;
-        double pi = Math.PI;
-        double area;
+        int age;
+        var rating = 0;
 
-        Console.WriteLine("Please enter the radius of the circle");
+        Console.WriteLine("Please enter age");
         Console.WriteLine("");
 
-        Console.Write("radius: ");
-        radius = Convert.ToInt32(Console.ReadLine());
+        Console.Write("age: ");
+        age = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("");
-        area = (pi * radius) * radius;
+        
+        if (age >= 17)
+        {
+            rating = 
+        } 
+        else if (age >= 13)
+        {
+            rating =
+        }
+        else if (age >= 5)
+        {
+            rating =
+        }
+        else
+        {
+            rating =
+        }
+
 
         Console.WriteLine("Area: " + area.ToString("0.00") + "cm²");
 
