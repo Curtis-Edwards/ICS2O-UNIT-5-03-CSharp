@@ -14,22 +14,22 @@ class Program
         Console.Write("age: ");
         age = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("");
-        
+
         if (age >= 17)
         {
             rating = "You can see R movies.";
         }
         else if (age >= 13)
         {
-            rating =  "You can see PG movies.";
+            rating = "You can see PG movies.";
         }
         else if (age >= 5)
         {
-            rating =  "You can see P movies.";
+            rating = "You can see P movies.";
         }
         else
         {
-            rating =  "You can't see any movies.";
+            rating = "You can't see any movies.";
         }
 
         Console.WriteLine(rating);
