@@ -18,7 +18,7 @@ class Program
         if (age >= 17)
         {
             rating = "You can see R movies.";
-        } 
+        }
         else if (age >= 13)
         {
             rating =  "You can see PG movies.";
@@ -31,7 +31,6 @@ class Program
         {
             rating =  "You can't see any movies.";
         }
-
 
         Console.WriteLine(rating);
 
