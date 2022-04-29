@@ -6,7 +6,7 @@ class Program
     {
         // This function accepts user input
         int age;
-        var rating = 0;
+        string rating;
 
         Console.WriteLine("Please enter age");
         Console.WriteLine("");
@@ -17,23 +17,23 @@ class Program
         
         if (age >= 17)
         {
-            rating = 
+            rating = "You can see R movies.";
         } 
         else if (age >= 13)
         {
-            rating =
+            rating =  "You can see PG movies.";
         }
         else if (age >= 5)
         {
-            rating =
+            rating =  "You can see P movies.";
         }
         else
         {
-            rating =
+            rating =  "You can't see any movies.";
         }
 
 
-        Console.WriteLine("Area: " + area.ToString("0.00") + "cm²");
+        Console.WriteLine(rating);
 
         Console.WriteLine("\nDone.");
     }
